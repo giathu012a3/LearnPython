@@ -21,3 +21,14 @@ y= temp
 print("----")
 print("x= "+str(x))
 print("y = "+str(y))
+print("-----------------------------------------------")
+age =input()
+numberAge=int(age)
+if numberAge < 10:
+	print("Tre em ")
+elif numberAge < 18:
+	print("Vi thanh nien")
+	if numberAge >11 and numberAge <17:
+		print("Tre trau")
+else:
+	print("Nguoi lon")
